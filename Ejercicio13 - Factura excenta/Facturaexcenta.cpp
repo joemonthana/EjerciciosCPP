@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
     }
     if (estaexenta == 'n' || estaexenta == 'N')
     {
-    cout <<"Ingrese el decuento (0 ,10, 15, 20): ";
+    cout <<"Ingrese el descuento (0 ,10, 15, 20): ";
     cin >> descuento;
     calculoDescuento = (subtotal* descuento) / 100;
     calculoImpuesto = (subtotal - calculoDescuento) * impuesto;
