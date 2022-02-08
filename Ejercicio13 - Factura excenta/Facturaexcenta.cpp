@@ -8,28 +8,31 @@ int main(int argc, char const *argv[])
     int descuento = 0;
     double calculoDescuento = 0;
     double calculoImpuesto = 0;
-    string estaexenta;
+    char estaexenta;
 
     cout <<"Ingrese el subtotal: ";
     cin >> subtotal;
     cout << endl;
     cout << "Factura exenta? s/n: ";
     cin >> estaexenta;
-    if (estaexenta == "s" || estaexenta == "S");
-    {
+    cout <<endl;
+
+    if (estaexenta == 's' || estaexenta == 'S')
+    { 
         cout << "El total a pagar es: " << subtotal;
     }
-    if (estaexenta == "n" || estaexenta == "N")
+    if (estaexenta == 'n' || estaexenta == 'N')
     {
-    cout <<"Ingrese el decuento (0 ,15, 15, 20): ";
+    cout <<"Ingrese el decuento (0 ,10, 15, 20): ";
     cin >> descuento;
     calculoDescuento = (subtotal* descuento) / 100;
     calculoImpuesto = (subtotal - calculoDescuento) * impuesto;
     total = subtotal - calculoDescuento + calculoImpuesto;
     cout <<"El total a pagar es: " << total;
-    } else
+    }
+    else
     {
-        cout << "Valor no valido";
+    cout << "Valor no valido";
     }
     return 0;
     return 0;
