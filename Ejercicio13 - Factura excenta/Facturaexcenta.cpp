@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     }
     else
     {
-    cout << "Valor no valido";
+    cout << "Dato incorrecto";
     }
     return 0;
     return 0;
