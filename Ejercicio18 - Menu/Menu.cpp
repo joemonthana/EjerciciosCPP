@@ -21,15 +21,16 @@ int main(int argc, char const *argv[])
             system("cls");
             cout << "Estas en el menu de cafe y granitas" << endl;
             system("pause");
-        } else {
-            if (opcion == 2)
+        } if (opcion == 2){
             system("cls");
             cout << "Estas en el menu de Reposteria" <<endl;
             system("pause");
-        } else {
+        } if (opcion == 0) {
+		
             break;
-        }
-    }
+        } 
+    } 
+	cout << "Saliste del sitema" << endl;
     
     return 0;
 }
