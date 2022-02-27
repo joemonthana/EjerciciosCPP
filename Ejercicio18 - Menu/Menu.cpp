@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
             system("cls");
             cout << "Estas en el menu de Reposteria" <<endl;
             system("pause");
-        } if (opcion == 0) {
+        } if (opcion == 3) {
 		
             break;
         } 
