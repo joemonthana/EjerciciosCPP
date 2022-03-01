@@ -55,6 +55,7 @@ int main() {
 			contador++;
 			if ( contador > 10 && constrasena == "neo" )
 			{
+				system("COLOR 04");
 				break;
 			}	
 		}
