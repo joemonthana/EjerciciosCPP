@@ -1,4 +1,5 @@
 #include <iostream>
+#include "factura.h"
 
 using namespace std;
 double granTotal = 0;
