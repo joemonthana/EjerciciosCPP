@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     do
     {
         system("cls");
-        cout << "*****INGRESE CUENTA Y CLAVE PARA ACCESAR A LA PLATAFORMA*****" << endl;
+        cout << "***** INGRESE CUENTA Y CLAVE PARA ACCESAR A LA PLATAFORMA *****" << endl;
     cout << endl;
     cout << "Cuenta: "; cin >> cuenta;
     cout << "Clave: ";

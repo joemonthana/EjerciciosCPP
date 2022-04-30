@@ -23,7 +23,7 @@ void asignaturas(int option)
         cout << "\t\t2 - IA065 Lenguaje de Programacion II - 4 UV" << endl;
         cout << "\t\t3 - IA-075 Sistemas Operativos I - 4 UV" << endl;
         cout << "\t\t4 - IA-106 Base de Datos I - 4 UV" << endl;
-        cout << "\t\t5 - DET-395 Analisis Numerico En La Informatica - 5 UV" << endl;
+        cout << "\t\t5 - IA-096 Sistemas Operativos II - 4 UV" << endl;
         cout << "\t\t6 - IA-127 Teoria De Sistemas - 4 UV" << endl;
         cout << "\t\t7- Regresar" << endl;
         cout << endl;

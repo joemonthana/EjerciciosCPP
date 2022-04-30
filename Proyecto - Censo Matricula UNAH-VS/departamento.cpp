@@ -16,6 +16,7 @@ void departamento()
         cout << endl;
         cout << "\t\tDEPARTAMENTOS DISPONIBLES";
         cout << endl;
+        cout << endl;
 
         cout << "\t\t1 - Informatica Administrativa" << endl;
         cout << "\t\t2 - Lenguas extranjeras" << endl;
@@ -38,7 +39,6 @@ void departamento()
         } 
         if (option == 5)
         {
-            system("cls");
             datos();
         }
         if (option == 6)
