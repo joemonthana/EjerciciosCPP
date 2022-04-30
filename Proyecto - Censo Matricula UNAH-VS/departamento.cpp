@@ -4,6 +4,7 @@ using namespace std;
 
 extern void asignaturas(int option);
 extern void clasesAgregadas();
+extern void datos();
 
 void departamento()
 {
@@ -12,20 +13,19 @@ void departamento()
     while (true)
     {
         system("cls");
-
-        cout << "*****";
-        cout << "DEPARTAMENTOS DISPONIBLES";
-        cout << "*****";
+        cout << endl;
+        cout << "\t\tDEPARTAMENTOS DISPONIBLES";
         cout << endl;
 
-        cout << "1 - Informatica Administrativa" << endl;
-        cout << "2 - Lenguas extranjeras" << endl;
-        cout << "3 - Metodos cuantitativos" << endl;
-        cout << "4 - Mostrar clases Agregadas" << endl;
-        cout << "5 - Salir" << endl;
+        cout << "\t\t1 - Informatica Administrativa" << endl;
+        cout << "\t\t2 - Lenguas extranjeras" << endl;
+        cout << "\t\t3 - Metodos cuantitativos" << endl;
+        cout << "\t\t4 - Mostrar clases Agregadas" << endl;
+        cout << "\t\t5 - Regresar" << endl;
+        cout << "\t\t6 - Salir" << endl;
         cout << endl;
 
-        cout << "Ingrese un departamento: ";
+        cout << "\t\tIngrese una opcion: ";
         cin >> option;
 
         if (option == 0)
@@ -37,6 +37,11 @@ void departamento()
             clasesAgregadas();
         } 
         if (option == 5)
+        {
+            system("cls");
+            datos();
+        }
+        if (option == 6)
         {
             break;
         }

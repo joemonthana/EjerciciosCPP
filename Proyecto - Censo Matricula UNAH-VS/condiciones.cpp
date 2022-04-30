@@ -1,11 +1,21 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int totalUv = 0;
 int uvDisponibles = 0;
 string listado;
+string nombre;
 int promedioGlobal = 0;
+
+void nombreEstudiante()
+{
+    cout << "Ingrese su nombre: " << endl;
+    cin.ignore();
+    getline (cin, nombre);
+}
+
 
 void promedio()
 {
@@ -49,7 +59,10 @@ void agregarAsignatura(string asignatura, int cantidad, int uv)
 void clasesAgregadas()
 {
     system("cls");
-    cout << "\t\tSu promedio Global es: " << promedioGlobal;
+    cout << "\t\tNombre de estudiante: " << nombre;
+    cout << endl;
+    cout << "\t\tPromedio Global: " << promedioGlobal;
+    cout << endl;
     cout << endl;
 
     cout << "\t\tClases Agregadas" << endl;
@@ -66,6 +79,7 @@ void clasesAgregadas()
     cout << endl;
 
 system("pause");
+
 }
 
 
