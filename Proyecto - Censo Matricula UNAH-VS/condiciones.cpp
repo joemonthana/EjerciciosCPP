@@ -11,7 +11,7 @@ int promedioGlobal = 0;
 
 void nombreEstudiante()
 {
-    cout << "\t\tIngrese su nombre: " << endl;
+    cout << "Ingrese su nombre: " << endl;
     cin.ignore();
     getline (cin, nombre);
 }
@@ -19,7 +19,7 @@ void nombreEstudiante()
 
 void promedio()
 {
-    cout << "\t\tIngrese promedio global: " << endl;
+    cout << "Ingrese promedio global: " << endl;
     cin >> promedioGlobal;
     if (promedioGlobal < 0 && promedioGlobal > 100)
     cout << "\t\tOpcion no valida" << endl;

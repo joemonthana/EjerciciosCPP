@@ -38,18 +38,18 @@ int main(int argc, char const *argv[])
     if (cuenta == "20182031405" && clave == "1234") {
         login = true;
     } else {
-        cout << "*****ERROR DE USUARIO O CONTRASENA****" << endl;
+        cout << "***** ERROR DE USUARIO O CONTRASENA ****" << endl;
         cin.get();
         contador++;
     }
     } while (login == false && contador < 3);
     if (login == false )
     {
-        cout << "*****USTED PASO EL LIMITE DE INTENTOS*****" << endl;
+        cout << "***** USTED PASO EL LIMITE DE INTENTOS *****" << endl;
     }
     else
     {
-        cout << "*****BIENVENIDO AL CENSO DE MATRICULA DE UNAH-VS" << endl;
+        cout << "***** BIENVENIDO AL CENSO DE MATRICULA DE UNAH-VS *****" << endl;
         cout << endl;
         datos();
 
