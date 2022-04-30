@@ -4,7 +4,7 @@
 #include <conio.h>
 
 using namespace std;
-extern void departamento();
+extern void datos();
 
 
 int main(int argc, char const *argv[])
@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
     {
         cout << "*****BIENVENIDO AL CENSO DE MATRICULA DE UNAH-VS" << endl;
         cout << endl;
-        departamento();
+        datos();
 
     }
     

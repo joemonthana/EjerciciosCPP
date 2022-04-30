@@ -5,6 +5,7 @@ using namespace std;
 
 extern void agregarAsignatura(string asignatura, int cantidad, int uv);
 extern void departamento();
+extern void promedio();
 
 void asignaturas(int option)
 
@@ -17,10 +18,10 @@ void asignaturas(int option)
         cout << "\t\tINFORMATICA ADMINISTRATIVA" << endl;
         cout << "\t\tClases Disponibles" << endl;
         cout << endl;
-        cout << "\t\t1 - IA054 Taller de Hardware II" << endl;
-        cout << "\t\t2 - IA065 Lenguaje de Programacion II" << endl;
-        cout << "\t\t3 - IA-075 Sistemas Operativos I" << endl;
-        cout << "\t\t4 - IA-106 Base de Datos I" << endl;
+        cout << "\t\t1 - IA054 Taller de Hardware II - 4UV" << endl;
+        cout << "\t\t2 - IA065 Lenguaje de Programacion II - 4 UV" << endl;
+        cout << "\t\t3 - IA-075 Sistemas Operativos I - 4 UV" << endl;
+        cout << "\t\t4 - IA-106 Base de Datos I - 4 UV" << endl;
         cout << "\t\t5 - Regresar" << endl;
         cout << endl;
         cout << "\t\tElija una opcion: ";
